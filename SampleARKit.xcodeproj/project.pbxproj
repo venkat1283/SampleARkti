@@ -14,6 +14,15 @@
 		1D59FB1F2303DE7A000B586E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D59FB1D2303DE7A000B586E /* LaunchScreen.storyboard */; };
 		1D59FB2A2303DE7A000B586E /* SampleARKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D59FB292303DE7A000B586E /* SampleARKitTests.swift */; };
 		1D59FB352303DE7B000B586E /* SampleARKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D59FB342303DE7B000B586E /* SampleARKitUITests.swift */; };
+		1D59FB492303E43D000B586E /* Drone_daes.dae in Resources */ = {isa = PBXBuildFile; fileRef = 1D59FB482303E43D000B586E /* Drone_daes.dae */; };
+		1D59FB4B2303E67D000B586E /* Drone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D59FB4A2303E67D000B586E /* Drone.swift */; };
+		1D59FB4D2303E94A000B586E /* Drone_daes.scn in Resources */ = {isa = PBXBuildFile; fileRef = 1D59FB4C2303E94A000B586E /* Drone_daes.scn */; };
+		1DEDAF52230BB3DF00801AE3 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEDAF50230BB3DF00801AE3 /* ItemCollectionViewCell.swift */; };
+		1DEDAF53230BB3DF00801AE3 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEDAF50230BB3DF00801AE3 /* ItemCollectionViewCell.swift */; };
+		1DEDAF54230BB3DF00801AE3 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEDAF50230BB3DF00801AE3 /* ItemCollectionViewCell.swift */; };
+		1DEDAF55230BB3DF00801AE3 /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDAF51230BB3DF00801AE3 /* ItemCollectionViewCell.xib */; };
+		1DEDAF56230BB3DF00801AE3 /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDAF51230BB3DF00801AE3 /* ItemCollectionViewCell.xib */; };
+		1DEDAF57230BB3DF00801AE3 /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDAF51230BB3DF00801AE3 /* ItemCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,17 @@
 		1D59FB302303DE7B000B586E /* SampleARKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleARKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D59FB342303DE7B000B586E /* SampleARKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleARKitUITests.swift; sourceTree = "<group>"; };
 		1D59FB362303DE7B000B586E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D59FB482303E43D000B586E /* Drone_daes.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Drone_daes.dae; sourceTree = "<group>"; };
+		1D59FB4A2303E67D000B586E /* Drone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drone.swift; sourceTree = "<group>"; };
+		1D59FB4C2303E94A000B586E /* Drone_daes.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Drone_daes.scn; sourceTree = "<group>"; };
+		1DEDAF50230BB3DF00801AE3 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		1DEDAF51230BB3DF00801AE3 /* ItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		1DEDAF69230D065200801AE3 /* Plane.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Plane.scn; sourceTree = "<group>"; };
+		1DEDAF82230D080300801AE3 /* table.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = table.scn; sourceTree = "<group>"; };
+		1DEDAF83230D080900801AE3 /* Doraemon.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Doraemon.scn; sourceTree = "<group>"; };
+		1DEDAF84230D081000801AE3 /* Car.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Car.scn; sourceTree = "<group>"; };
+		1DEDAF85230D081800801AE3 /* MaxPro.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = MaxPro.scn; sourceTree = "<group>"; };
+		1DEDAF86230D082000801AE3 /* FlareGunShort.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = FlareGunShort.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +117,14 @@
 		1D59FB132303DE78000B586E /* SampleARKit */ = {
 			isa = PBXGroup;
 			children = (
+				1DEDAF4F230BB3B000801AE3 /* Model */,
 				1D59FB142303DE78000B586E /* AppDelegate.swift */,
 				1D59FB162303DE78000B586E /* ViewController.swift */,
 				1D59FB182303DE78000B586E /* Main.storyboard */,
 				1D59FB1B2303DE7A000B586E /* Assets.xcassets */,
 				1D59FB1D2303DE7A000B586E /* LaunchScreen.storyboard */,
 				1D59FB202303DE7A000B586E /* Info.plist */,
+				1D59FB422303E1CA000B586E /* Objects */,
 			);
 			path = SampleARKit;
 			sourceTree = "<group>";
@@ -123,6 +145,31 @@
 				1D59FB362303DE7B000B586E /* Info.plist */,
 			);
 			path = SampleARKitUITests;
+			sourceTree = "<group>";
+		};
+		1D59FB422303E1CA000B586E /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				1DEDAF82230D080300801AE3 /* table.scn */,
+				1DEDAF83230D080900801AE3 /* Doraemon.scn */,
+				1DEDAF84230D081000801AE3 /* Car.scn */,
+				1DEDAF85230D081800801AE3 /* MaxPro.scn */,
+				1DEDAF86230D082000801AE3 /* FlareGunShort.scn */,
+				1DEDAF69230D065200801AE3 /* Plane.scn */,
+				1D59FB482303E43D000B586E /* Drone_daes.dae */,
+				1D59FB4C2303E94A000B586E /* Drone_daes.scn */,
+				1D59FB4A2303E67D000B586E /* Drone.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		1DEDAF4F230BB3B000801AE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1DEDAF50230BB3DF00801AE3 /* ItemCollectionViewCell.swift */,
+				1DEDAF51230BB3DF00801AE3 /* ItemCollectionViewCell.xib */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +277,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D59FB1F2303DE7A000B586E /* LaunchScreen.storyboard in Resources */,
+				1D59FB4D2303E94A000B586E /* Drone_daes.scn in Resources */,
 				1D59FB1C2303DE7A000B586E /* Assets.xcassets in Resources */,
+				1DEDAF55230BB3DF00801AE3 /* ItemCollectionViewCell.xib in Resources */,
+				1D59FB492303E43D000B586E /* Drone_daes.dae in Resources */,
 				1D59FB1A2303DE78000B586E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DEDAF56230BB3DF00801AE3 /* ItemCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DEDAF57230BB3DF00801AE3 /* ItemCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +308,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D59FB4B2303E67D000B586E /* Drone.swift in Sources */,
+				1DEDAF52230BB3DF00801AE3 /* ItemCollectionViewCell.swift in Sources */,
 				1D59FB172303DE78000B586E /* ViewController.swift in Sources */,
 				1D59FB152303DE78000B586E /* AppDelegate.swift in Sources */,
 			);
@@ -266,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D59FB2A2303DE7A000B586E /* SampleARKitTests.swift in Sources */,
+				1DEDAF53230BB3DF00801AE3 /* ItemCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D59FB352303DE7B000B586E /* SampleARKitUITests.swift in Sources */,
+				1DEDAF54230BB3DF00801AE3 /* ItemCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +491,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5JMM6D7KM8;
 				INFOPLIST_FILE = SampleARKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +510,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5JMM6D7KM8;
 				INFOPLIST_FILE = SampleARKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
